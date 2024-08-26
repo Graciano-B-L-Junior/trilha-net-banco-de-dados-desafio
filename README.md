@@ -1,3 +1,6 @@
+# RESPOSTAS NA PASTA Imagens resposta
+Feito utilizando docker e sqlcmd
+
 # DIO - Trilha .NET - Banco de Dados
 www.dio.me
 

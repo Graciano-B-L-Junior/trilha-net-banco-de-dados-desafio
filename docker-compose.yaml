@@ -1,0 +1,12 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlserver
+    hostname: sql1
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_SA_PASSWORD=Rootsqls3rver
+    ports:
+      - 1433:1433
+    volumes:
+      - ./Script Filmes.sql:/sql_folder/script.sql
